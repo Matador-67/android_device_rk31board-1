@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_rk31board.mk
+    $(LOCAL_DIR)/omni_rk31board.mk
