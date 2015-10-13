@@ -20,7 +20,7 @@
 # In particular, you can add lunch options with the add_lunch_combo
 # function: add_lunch_combo generic-eng
 
-add_lunch_combo aosp_rk31board-userdebug
+add_lunch_combo omni_rk31board-userdebug
 
 # Run device patches on the tree
 sh device/rockchip/rk31board/patches/apply.sh
