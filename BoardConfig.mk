@@ -46,7 +46,7 @@ SMALLER_FONT_FOOTPRINT := true
 #THIS IS DEPRECATED
 #TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
 TARGET_KERNEL_BUILT_FROM_SOURCE := true
-TARGET_KERNEL_CONFIG := m9pro_defconfig
+TARGET_KERNEL_CONFIG := Pipo_M9Pro_lp_defconfig
 TARGET_KERNEL_SOURCE := kernel/rockchip/rk31board/
 KERNEL_SRC_DIR := kernel/rockchip/rk31board/
 
@@ -87,7 +87,7 @@ BOARD_SEPOLICY_UNION += \
 # Graphics
 BOARD_EGL_CFG := device/rockchip/rk31board/egl.cfg
 USE_OPENGL_RENDERER := true
-BOARD_NEEDS_MEMORYHEAPPMEM := true
+BOARD_NEEDS_MEMORYHEAPPMEM := false
 #BOARD_EGL_NEEDS_LEGACY_FB := true
 TARGET_USES_ION := true
 
