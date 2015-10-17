@@ -1,4 +1,4 @@
-# Inherit device configuration
+Nun# Inherit device configuration
 $(call inherit-product, device/rockchip/rk31board/device.mk)
 
 # Release name
@@ -9,5 +9,5 @@ PRODUCT_RELEASE_NAME := rk31board
 PRODUCT_NAME := aosp_rk31board
 PRODUCT_DEVICE := rk31board
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := AOSP on rk31board
-PRODUCT_MANUFACTURER := Rockchip
+PRODUCT_MODEL := M9Pro
+PRODUCT_MANUFACTURER := PiPO
