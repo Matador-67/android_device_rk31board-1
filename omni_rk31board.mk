@@ -1,4 +1,4 @@
-# Inherit device configuration
+Y# Inherit device configuration
 $(call inherit-product, device/rockchip/rk31board/device.mk)
 
 # Release name
